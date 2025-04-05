@@ -8,5 +8,10 @@ spring:
           uri: https://github.com/is6769/NXB-ConfigVault
           search-paths:
             - '{application}'
+
+logging:
+  level:
+    org.springframework.cloud.config.server: TRACE
+
 server:
   port: 8888
